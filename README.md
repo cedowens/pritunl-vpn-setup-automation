@@ -64,3 +64,7 @@ Next, you will be brought to a page asking for pritunl login creds:
 > sudo pritunl default-password
 
 At this point you are now set up and logged into pritunl and can set up the VPN as you please. Just keep in mind that once you start the VPN server, you will need to add ufw firewall rules accordinly on the pritunl VPN server to allow access to that port from restricted IP space.
+
+-------------
+
+**NOTE: I HAVE HAD ISSUES WHEN RUNNING THE PRITUNL CLIENT ON MACOS. IN PARTICULAR THE CLIENT HAD ISSUES SETTING UP UTUN. HOWEVER, THE OPENVPN CLIENT ON MACOS WORKS GREAT WITH THE PRITUNL VPN SERVER***
