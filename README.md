@@ -47,7 +47,7 @@ Terraform will then install the following in the DO droplet:
 
 **once done, you will see a message from terraform indicating succcess:**
 
-Next, you can ssh into the newly stood up prtinul VPN server and you will see the page asking for a setup key:
+Next, you can browse to the newly stood up pritunl droplet. You will see the page below asking for a setup key:
 
 ![Image](img/pritunl1.png)
 
